@@ -6,10 +6,10 @@
 ## The Person
 - **Role:** UAE real estate consultant / advisor
 - **Contact:** rayyanamin171@gmail.com
-- **Name (on camera):** Rayyan Maniya
+- **Name (on camera):** Rayan Maniya
 - **Instagram:** [@rayyanmaniya](https://www.instagram.com/rayyanmaniya/)
 - **YouTube:** [@RealestatewithRM](https://www.youtube.com/@RealestatewithRM)
-- **Display name on both platforms:** Rayyan Maniya. Always use this name in scripts, CTAs and end screens.
+- **Display name on both platforms:** Rayan Maniya (one "y"). Always use this name in scripts, CTAs and end screens.
 - **Stage:** Just starting (under 1K followers / subs)
 - **#1 goal (12 months):** Build a personal brand and become the trusted, go-to authority on UAE real estate and wealth.
 
