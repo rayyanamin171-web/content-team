@@ -67,4 +67,4 @@ What they respect: data, discretion, competence and polish. They can smell hype 
 - [ ] Main offer / CTA (consultation call? WhatsApp? newsletter?)
 - [ ] Personal story: why the UAE, why real estate
 - [ ] Topics to never touch
-- [ ] Does Aeon & Trisl have rules for employees' personal content? (Affects listings, branding, compliance.)
+- [x] Aeon & Trisl has no rules for employees' personal content (confirmed 2026-10-21). UAE advertising regulations still apply, so keep [COMPLIANCE CHECK] on any specific listing or project.
