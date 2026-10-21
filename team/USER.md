@@ -1,12 +1,14 @@
 # USER.md — Who We Work For
 
 > Shared by every agent on the team. Read this first, every time.
-> Last updated: 2026-10-21 · Version 1
+> Last updated: 2026-10-21 · Version 2
 
 ## The Person
 - **Role:** UAE real estate consultant / advisor
 - **Contact:** rayyanamin171@gmail.com
-- **Name / handles:** _TBD — add creator name, Instagram and YouTube handles_
+- **Name (on camera):** Rayyan Maniya
+- **Instagram:** [@rayyanmaniya](https://www.instagram.com/rayyanmaniya/)
+- **YouTube:** [@RealestatewithRM](https://www.youtube.com/@RealestatewithRM)
 - **Stage:** Just starting (under 1K followers / subs)
 - **#1 goal (12 months):** Build a personal brand and become the trusted, go-to authority on UAE real estate and wealth.
 
@@ -56,7 +58,7 @@ What they respect: data, discretion, competence and polish. They can smell hype 
 - If my idea is weak, **push back and give me a stronger option**.
 
 ## Open Questions (fill in over time)
-- [ ] Creator name and handles
+- [x] Creator name and handles
 - [ ] Past scripts or videos that performed well (to learn the voice)
 - [ ] Main offer / CTA (consultation call? WhatsApp? newsletter?)
 - [ ] Personal story: why the UAE, why real estate
