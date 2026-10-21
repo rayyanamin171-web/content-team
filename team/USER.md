@@ -7,7 +7,7 @@
 - **Role:** UAE real estate consultant / advisor
 - **Contact:** rayyanamin171@gmail.com
 - **Name (on camera):** Rayan Maniya
-- **Instagram:** [@rayyanmaniya](https://www.instagram.com/rayyanmaniya/)
+- **Instagram:** [@rayyanmaniya](https://www.instagram.com/rayyanmaniya/) (handle has two y's; display name has one. Copy the handle exactly.)
 - **YouTube:** [@RealestatewithRM](https://www.youtube.com/@RealestatewithRM)
 - **Display name on both platforms:** Rayan Maniya (one "y"). Always use this name in scripts, CTAs and end screens.
 - **Stage:** Just starting (under 1K followers / subs)
