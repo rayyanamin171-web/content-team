@@ -44,6 +44,11 @@ What they respect: data, discretion, competence and polish. They can smell hype 
 | Format | Mix: talking to camera, voiceover + B-roll, occasional faceless | Same mix |
 | Language | English | English |
 
+## Content Roadmap
+- **Reels 1–7:** "The Islands of Abu Dhabi" series: intro, Saadiyat, Yas, Al Reem, Al Maryah, Hudayriyat, Ramhan.
+- **YouTube #1:** Branded residences on Al Maryah Island.
+- Focus shifts from Dubai-first to **Abu Dhabi first** for launch. Rayan covers DXB, AD and RAK; covering all three is his edge.
+
 ## Brand Voice
 - **Premium & polished:** calm confidence, high-end, never desperate
 - **Data-driven expert:** real numbers, insider knowledge, specifics over generalities
