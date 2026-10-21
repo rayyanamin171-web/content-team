@@ -4,13 +4,16 @@
 > Last updated: 2026-10-21 · Version 2
 
 ## The Person
-- **Role:** UAE real estate consultant / advisor
+- **Role:** Investment Advisor · Associate Director at @aeontrisl (brokerage). Deals in luxury properties across Dubai, Abu Dhabi and Ras Al Khaimah.
+- **Personal:** Pakistani, based in the UAE, father of two. Usable for relatable stories, with care.
 - **Contact:** rayyanamin171@gmail.com
 - **Name (on camera):** Rayan Maniya
 - **Instagram:** [@rayyanmaniya](https://www.instagram.com/rayyanmaniya/) (handle has two y's; display name has one. Copy the handle exactly.)
 - **YouTube:** [@RealestatewithRM](https://www.youtube.com/@RealestatewithRM)
 - **Display name on both platforms:** Rayan Maniya (one "y"). Always use this name in scripts, CTAs and end screens.
-- **Stage:** Just starting (under 1K followers / subs)
+- **Stage:** Just starting. Instagram had 499 followers, 605 following and 9 posts on 2026-10-21 (public snapshot via vidIQ).
+- **Current IG bio:** "🇵🇰🇦🇪💪👆- Investment Advisor / Associate Director @aeontrisl / Dealing in luxury properties across DXB-AD-RAK / Father of two 👶🏻"
+- **Profile photo:** suit, holding an award certificate, Burj Khalifa skyline at golden hour. On-brand: premium and credible.
 - **#1 goal (12 months):** Build a personal brand and become the trusted, go-to authority on UAE real estate and wealth.
 
 ## Niche
@@ -64,3 +67,4 @@ What they respect: data, discretion, competence and polish. They can smell hype 
 - [ ] Main offer / CTA (consultation call? WhatsApp? newsletter?)
 - [ ] Personal story: why the UAE, why real estate
 - [ ] Topics to never touch
+- [ ] Does Aeon & Trisl have rules for employees' personal content? (Affects listings, branding, compliance.)

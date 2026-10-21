@@ -20,5 +20,9 @@
 | 2026-10-21 | skills/trust-psychology.md | coreyhaines31/marketingskills marketing-psychology (MIT) | 13 of ~70 principles relevant to HNI trust |
 | 2026-10-21 | skills/fact-check.md | kkoppenhaver/cc-skills fact-check | Strong. Adapted for UAE property claims. |
 
+## Connected Tools
+- **vidIQ** (connected 2026-10-21): public IG/YouTube research, outlier search, title/thumbnail scoring. Rayan's own Instagram and YouTube aren't linked inside vidIQ yet.
+- **Supermetrics** (connected 2026-10-21): the Instagram Insights source still needs a login to Rayan's Meta account.
+
 ## Experiments To Run
 - Test hook angles (Mistake vs Insider vs Number) on the first 10 Reels and record which wins.
