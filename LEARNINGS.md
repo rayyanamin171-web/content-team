@@ -21,7 +21,7 @@
 | 2026-10-21 | skills/fact-check.md | kkoppenhaver/cc-skills fact-check | Strong. Adapted for UAE property claims. |
 
 ## Connected Tools
-- **vidIQ** (connected 2026-10-21): public IG/YouTube research, outlier search, title/thumbnail scoring. Rayan's own Instagram and YouTube aren't linked inside vidIQ yet.
+- **vidIQ** (connected 2026-10-21): public IG/YouTube research, outlier search, title/thumbnail scoring. YouTube channel @realestatewithrm (ID UCZqcGRP-DhtaWYUJ9qsfL_Q) is linked: 0 videos, 0 subs at connection. Instagram isn't linked in vidIQ yet.
 - **Supermetrics** (connected 2026-10-21): the Instagram Insights source still needs a login to Rayan's Meta account.
 
 ## Experiments To Run
