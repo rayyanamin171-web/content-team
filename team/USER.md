@@ -9,6 +9,7 @@
 - **Name (on camera):** Rayyan Maniya
 - **Instagram:** [@rayyanmaniya](https://www.instagram.com/rayyanmaniya/)
 - **YouTube:** [@RealestatewithRM](https://www.youtube.com/@RealestatewithRM)
+- **Display name on both platforms:** Rayyan Maniya. Always use this name in scripts, CTAs and end screens.
 - **Stage:** Just starting (under 1K followers / subs)
 - **#1 goal (12 months):** Build a personal brand and become the trusted, go-to authority on UAE real estate and wealth.
 
