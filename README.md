@@ -18,6 +18,12 @@ scripts/reels|youtube/  Finished scripts
 3. Update USER.md/SOUL.md if the new agent teaches us something about the team
 
 ## Roster
-| Agent | Role | Status |
-|---|---|---|
-| Atlas | Scriptwriter: Reels + YouTube | Active |
+Team goal: lead generation across platforms. Atlas reports to the CEO Agent. Nothing external or irreversible (posting, emailing, publishing, spending, CRM changes) happens without Rayan's explicit approval.
+
+| Agent | Role | Session | Status |
+|---|---|---|---|
+| CEO Agent | Coordinates the team | session_01GDNGj8esW7r6ZqLhFgA22R | Active |
+| Market Research Agent | Dubai/Abu Dhabi market data | session_01UHyRw7Y71tvaFoetWHaubw | Active |
+| Intro Video Agent | Intro videos | session_01BE86VQcKMAzaQvGnafLJJ4 | Active |
+| Salesforce Follow-up Agent | Lead follow-up in CRM | session_01KRg53ScxrxDm8ryvrJa5JF | Active |
+| Atlas (Content Scripts Agent) | Scriptwriter: Reels + YouTube | session_01FZPHhrTHecztmNRRDNigx5 | Active |

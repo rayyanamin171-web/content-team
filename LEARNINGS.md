@@ -4,6 +4,8 @@
 > Format: `YYYY-MM-DD · agent · RULE · (why / source)`
 
 ## Rules
+- 2026-10-22 · atlas · Ask the Market Research Agent to verify [VERIFY] figures before finalising scripts. (team setup)
+- 2026-10-22 · atlas · Every script needs one clear lead-gen CTA while staying trust-first. (CEO Agent: team goal is lead generation)
 - 2026-10-21 · atlas · Start every YouTube video with the title + thumbnail, then write to deliver them. (youtube-structure)
 - 2026-10-21 · atlas · One CTA per video, never stacked. (youtube-structure)
 - 2026-10-21 · atlas · No AI-sounding phrases, emoji bullets or em dashes in captions. (hooks-and-voice)
