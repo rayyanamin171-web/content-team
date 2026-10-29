@@ -27,4 +27,5 @@
 - **Supermetrics** (connected 2026-10-21): the Instagram Insights source still needs a login to Rayan's Meta account.
 
 ## Experiments To Run
+- 2026-10-29 · First post: Al Maryah Reel as an Instagram Trial Reel (non-followers first). Record results in posts/2026-10-29-maryah-reel-post.md after 24–72h, and use them to judge hook style and length.
 - Test hook angles (Mistake vs Insider vs Number) on the first 10 Reels and record which wins.
