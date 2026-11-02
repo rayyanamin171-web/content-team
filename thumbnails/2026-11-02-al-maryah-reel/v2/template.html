@@ -1,0 +1,135 @@
+<!doctype html>
+<!--
+  "Abu Dhabi Series" Reel cover v2: presenter style (Rayan cut-out + skyline), by Frame.
+  1080x1920. Key content inside the centre 1080x1350 safe area (y 285 to 1635).
+  URL params (all optional):
+    part=1  island=Al%20Maryah%20Island
+    bg=inputs/skyline.jpg          background: web photo or a video frame grab (9:16 or wider, cover-cropped)
+    bgpos=50%25%2050%25            CSS background-position, to keep the towers in frame
+    person=inputs/rayan-cutout.png transparent PNG of Rayan (from cutout.mjs)
+    warm=0.06 bright=0.95 sat=0.95 colour match of Rayan to the scene (see README)
+    tag=1|0  show "Abu Dhabi, honestly."
+    safe=1   outline the safe area
+  Missing bg or person → clearly marked placeholders.
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("../fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "InterF"; src: url("../fonts/inter-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  :root { --ink: #0E1A2B; --gold: #C8A15A; --paper: #F5F1E8; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1920px; background: var(--ink); overflow: hidden; }
+  .cover { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: "InterF", Inter, sans-serif; }
+
+  /* Background */
+  .bg { position: absolute; inset: 0; background-size: cover; background-position: 50% 50%; }
+  .bg-ph { position: absolute; inset: 0; }
+  .note {
+    position: absolute; border: 3px dashed rgba(245,241,232,.8); color: var(--paper); padding: 14px 22px;
+    font-size: 26px; letter-spacing: 1.5px; line-height: 1.35; background: rgba(14,26,43,.55); text-align: center;
+  }
+  .note.bgnote { left: 60px; top: 900px; }
+
+  /* Legibility: dark at top for the label + title, dark at the bottom so Rayan blends into navy */
+  .shade { position: absolute; inset: 0;
+    background:
+      linear-gradient(180deg, rgba(14,26,43,.92) 0%, rgba(14,26,43,.70) 22%, rgba(14,26,43,.10) 40%, rgba(14,26,43,0) 55%, rgba(14,26,43,.55) 82%, rgba(14,26,43,.95) 100%); }
+
+  /* Rayan: right side, head inside the safe area, body runs off the bottom edge */
+  .person { position: absolute; right: -40px; bottom: 0; height: 1200px; width: 860px; }
+  .person img { position: absolute; right: 0; bottom: 0; height: 100%; width: auto; max-width: none;
+    /* colour match is set from URL params in the script below */
+    filter: var(--match) drop-shadow(-5px -2px 6px rgba(200,161,90,.55)) drop-shadow(-24px 18px 40px rgba(0,0,0,.55)); }
+  .person svg { position: absolute; right: 0; bottom: 0; height: 100%; }
+  .note.pnote { right: 60px; top: 1690px; }
+  /* Floor fade over Rayan's lower body so the cut-out sits in the scene */
+  .floor { position: absolute; left: 0; right: 0; bottom: 0; height: 380px;
+    background: linear-gradient(180deg, rgba(14,26,43,0) 0%, rgba(14,26,43,.85) 70%, rgba(14,26,43,1) 100%); }
+
+  /* Text block, top-left of the safe area */
+  .series { position: absolute; top: 330px; left: 80px; color: var(--gold); font-size: 46px; letter-spacing: 5px; text-transform: uppercase; }
+  .rule { position: absolute; top: 410px; left: 80px; width: 120px; height: 4px; background: var(--gold); }
+  .island { position: absolute; top: 450px; left: 76px; right: 80px; color: var(--paper);
+    font-family: "Playfair Display", Georgia, serif; font-weight: 700; font-size: 158px; line-height: .98; letter-spacing: -1px;
+    text-shadow: 0 4px 24px rgba(0,0,0,.4); }
+  .tagline { position: absolute; top: 790px; left: 80px; color: var(--paper); font-size: 42px; opacity: .92; }
+
+  .safe { display: none; position: absolute; left: 0; right: 0; top: 285px; height: 1350px; outline: 4px dashed #ff3b6b; }
+  .show-safe .safe { display: block; }
+</style>
+</head>
+<body>
+<div class="cover" id="cover">
+  <div class="bg" id="bg" hidden></div>
+  <svg class="bg-ph" id="bgph" viewBox="0 0 1080 1920" preserveAspectRatio="xMidYMid slice">
+    <!-- Drawn stand-in for the skyline photo. Generic shapes, not any real building. -->
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#0E1A2B"/><stop offset=".45" stop-color="#22355A"/>
+        <stop offset=".62" stop-color="#7A5A48"/><stop offset=".70" stop-color="#D9A564"/>
+      </linearGradient>
+      <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2F6F73"/><stop offset="1" stop-color="#0E1A2B"/></linearGradient>
+    </defs>
+    <rect width="1080" height="1920" fill="url(#sky)"/>
+    <g fill="#141E30">
+      <rect x="20" y="1000" width="110" height="360"/><rect x="150" y="880" width="130" height="480"/>
+      <rect x="300" y="780" width="120" height="580" rx="10"/><rect x="440" y="920" width="100" height="440"/>
+      <rect x="560" y="740" width="150" height="620" rx="60"/><rect x="730" y="860" width="120" height="500"/>
+      <rect x="870" y="960" width="170" height="400"/>
+    </g>
+    <rect y="1360" width="1080" height="560" fill="url(#sea)"/>
+  </svg>
+  <div class="note bgnote" id="bgnote">SKYLINE PHOTO PLACEHOLDER<br>Al Maryah / ADGM towers, blue hour<br>(web photo or video frame)</div>
+  <div class="shade"></div>
+
+  <div class="person" id="person">
+    <svg id="pph" viewBox="0 0 760 1060" preserveAspectRatio="xMaxYMax meet">
+      <!-- Placeholder silhouette: head-and-torso, turned slightly left toward the title -->
+      <g fill="#0B1220" stroke="#F5F1E8" stroke-width="4" stroke-dasharray="18 12" opacity=".95">
+        <path d="M120 1060 C 130 820, 230 700, 400 680 C 570 690, 690 780, 740 1060 Z"/>
+        <ellipse cx="390" cy="470" rx="130" ry="165"/>
+        <path d="M340 620 L 440 620 L 450 690 L 330 690 Z"/>
+      </g>
+    </svg>
+  </div>
+  <div class="note pnote" id="pnote">RAYAN CUT-OUT PLACEHOLDER<br>waist-up · turned left · looking at title</div>
+  <div class="floor"></div>
+
+  <div class="series" id="series">Abu Dhabi Series – Part 1</div>
+  <div class="rule"></div>
+  <div class="island" id="island">Al Maryah<br>Island</div>
+  <div class="tagline" id="tagline">Abu Dhabi, honestly.</div>
+  <div class="safe"></div>
+</div>
+<script>
+  const q = new URLSearchParams(location.search);
+  const cover = document.getElementById("cover");
+  if (q.get("safe") === "1") cover.classList.add("show-safe");
+  document.getElementById("series").textContent = "Abu Dhabi Series – Part " + (q.get("part") || "1");
+  const words = (q.get("island") || "Al Maryah Island").trim().split(/\s+/);
+  const isl = document.getElementById("island"); isl.textContent = "";
+  if (words.length > 1) { isl.append(words.slice(0, -1).join(" ")); isl.append(document.createElement("br")); isl.append(words.at(-1)); }
+  else isl.append(words[0]);
+  if (q.get("tag") === "0") document.getElementById("tagline").remove();
+
+  const bg = q.get("bg");
+  if (bg) {
+    const el = document.getElementById("bg");
+    el.style.backgroundImage = `url("${bg}")`; el.hidden = false;
+    if (q.get("bgpos")) el.style.backgroundPosition = q.get("bgpos");
+    document.getElementById("bgph").remove(); document.getElementById("bgnote").remove();
+  }
+  const person = q.get("person");
+  if (person) {
+    // Colour match: pull Rayan toward the scene's blue-hour light. Tune per photo.
+    const warm = parseFloat(q.get("warm") ?? "0.06"), bright = q.get("bright") ?? "0.95", sat = q.get("sat") ?? "0.95";
+    document.documentElement.style.setProperty("--match", `brightness(${bright}) saturate(${sat}) sepia(${warm})`);
+    const img = document.createElement("img"); img.src = person;
+    const box = document.getElementById("person"); box.innerHTML = ""; box.append(img);
+    document.getElementById("pnote").remove();
+  }
+</script>
+</body>
+</html>

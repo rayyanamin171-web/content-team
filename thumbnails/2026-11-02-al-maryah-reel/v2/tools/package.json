@@ -1,0 +1,7 @@
+{
+  "name": "frame-cover-tools",
+  "private": true,
+  "type": "module",
+  "description": "Offline background removal for Rayan's cut-out. Model is bundled in the npm package (AGPL-3.0, free/open source; run locally only).",
+  "dependencies": { "@imgly/background-removal-node": "1.4.5" }
+}
