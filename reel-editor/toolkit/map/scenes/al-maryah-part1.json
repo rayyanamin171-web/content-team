@@ -1,0 +1,43 @@
+{
+  "_about": "Map scene for Abu Dhabi Series Part 1 (Al Maryah Island). Times are seconds from the start of the map clip. Coordinates are lon,lat from Overture Maps / OpenStreetMap (see data/al-maryah/render/sources.json). Distances are computed from coordinates (straight line). No drive times: none verified yet.",
+  "duration": 8.5,
+  "fps": 30,
+  "render_dir": "data/al-maryah/render",
+  "satellite": "data/abu-dhabi/sentinel.webp",
+  "highlight_country": "ARE",
+  "highlight_emirate": "Abu Dhabi",
+  "camera": [
+    { "t": 0.0, "center": [54.25, 24.15], "zoom": 6.35, "pitch": 0, "bearing": 0 },
+    { "t": 1.3, "center": [54.30, 24.20], "zoom": 6.75, "pitch": 0, "bearing": 0, "ease": "linear" },
+    { "t": 3.1, "center": [54.40, 24.485], "zoom": 11.3, "pitch": 20, "bearing": -8, "ease": "inOutCubic" },
+    { "t": 4.7, "center": [54.3903, 24.5005], "zoom": 15.7, "pitch": 55, "bearing": -26, "ease": "inOutCubic" },
+    { "t": 6.8, "center": [54.3899, 24.5004], "zoom": 15.95, "pitch": 58, "bearing": -36, "ease": "linear" },
+    { "t": 7.7, "center": [54.3942, 24.5180], "zoom": 13.35, "pitch": 18, "bearing": -10, "ease": "inOutCubic" },
+    { "t": 8.5, "center": [54.3942, 24.5182], "zoom": 13.45, "pitch": 18, "bearing": -8, "ease": "linear" }
+  ],
+  "layers": {
+    "region":    [[0, 1], [2.6, 1], [3.1, 0]],
+    "emirate":   [[0, 0], [0.5, 1]],
+    "city":      [[0, 0], [2.4, 0], [2.9, 1]],
+    "roads":     [[0, 1]],
+    "satellite": [[0, 0], [2.5, 0], [3.0, 1], [3.9, 1], [4.5, 0], [6.9, 0], [7.5, 0.55]],
+    "satellite_tint": [[0, 0.2], [7.0, 0.2], [7.6, 0.32]],
+    "buildings": [[0, 0], [3.8, 0], [4.4, 1]],
+    "building_rise": [[0, 0.05], [3.9, 0.05], [5.0, 1]],
+    "island":    [[0, 0], [4.2, 0], [4.7, 1], [6.6, 1], [7.0, 0.6]]
+  },
+  "labels": [
+    { "t": [0.15, 2.0], "lonlat": [55.75, 24.95], "text": "UAE", "kind": "country" },
+    { "t": [0.45, 2.1], "lonlat": [53.35, 23.15], "text": "Abu Dhabi", "sub": "Emirate", "kind": "city" }
+  ],
+  "pins": [
+    { "t": [4.5, 5.75], "lonlat": [54.39026, 24.50218], "label": "Al Maryah Island", "sub": "Abu Dhabi", "kind": "main" },
+    { "t": [5.5, 6.3], "lonlat": [54.38905, 24.50124], "label": "ADGM Square", "sub": "Financial centre", "side": "left" },
+    { "t": [5.85, 6.7], "lonlat": [54.39066, 24.50090], "label": "The Galleria", "sub": "Retail" },
+    { "t": [6.3, 7.05], "lonlat": [54.38801, 24.49730], "label": "Cleveland Clinic", "sub": "Hospital" }
+  ],
+  "callouts": [
+    { "t": [7.15, 8.5], "from": [54.39026, 24.50218], "to": [54.39814, 24.53370], "label": "≈ {km} km", "sub": "Straight line", "to_label": "Louvre Abu Dhabi", "draw": 0.8, "label_offset": [170, 40] }
+  ],
+  "credit_opacity": [[0, 1]]
+}

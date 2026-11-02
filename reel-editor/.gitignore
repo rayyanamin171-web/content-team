@@ -1,0 +1,7 @@
+# rebuilt on every run
+02_Output/*/build/
+toolkit/map/cache/
+# raw Overture downloads (re-fetch with fetch_overture.py); the slim render/ layers are committed
+toolkit/map/data/*/*.geojson
+!toolkit/map/data/*/render/
+__pycache__/

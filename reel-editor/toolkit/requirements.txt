@@ -1,0 +1,9 @@
+# Python deps for the reel toolkit (all free/open source)
+pyarrow==26.0.0      # read Overture Maps Parquet straight from S3
+shapely==2.2.0
+pyproj==3.8.0
+rasterio==1.5.2      # read Sentinel-2 satellite tiles
+numpy
+pillow
+# optional, Mac only: word-level auto captions (downloads a model on first run)
+# faster-whisper

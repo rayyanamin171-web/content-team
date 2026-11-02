@@ -1,0 +1,6 @@
+{
+  "name": "rayan-reel-toolkit",
+  "private": true,
+  "description": "Map renderer dependency. Run `npm install && npx playwright install chromium` once on the Mac.",
+  "dependencies": { "playwright": "1.63.0" }
+}

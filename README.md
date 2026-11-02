@@ -28,3 +28,4 @@ Team goal: lead generation across platforms. Atlas reports to the CEO Agent. Not
 | Salesforce Follow-up Agent | Lead follow-up in CRM | session_01KRg53ScxrxDm8ryvrJa5JF | Active |
 | Frame (Thumbnail & Cover Agent) | YouTube thumbnails + Reel covers | session_01KFxVAed9PuiHM5DH74iPMP | Active |
 | Atlas (Content Scripts Agent) | Scriptwriter: Reels + YouTube | session_01FZPHhrTHecztmNRRDNigx5 | Active |
+| Reel Editor Agent | Edits Reels, map visuals (`reel-editor/`, `style/rayan-reel-style.md`) | session_01KFxVAfRj6PkyzrrYsrceB3 | Active |

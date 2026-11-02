@@ -1,0 +1,19 @@
+{
+  "_about": "Rayan Maniya reel brand kit. Every overlay reads from here; change once, all reels follow. Palette and fonts from Frame's Abu Dhabi Series covers (provisional until Rayan confirms brand colours).",
+  "name": "Rayan Maniya",
+  "role": "Investment Advisor",
+  "licence_line": "RERA BRN 68958",
+  "brokerage": "Aeon & Trisl Real Estate Broker L.L.C.",
+  "handle": "@rayyanmaniya",
+  "colors": {
+    "navy": "#0E1A2B",
+    "gold": "#C8A15A",
+    "paper": "#F5F1E8",
+    "navy_glass": "rgba(14,26,43,0.78)"
+  },
+  "fonts": {
+    "serif": { "family": "RM Serif", "files": { "700": "playfair-display-latin-700-normal.woff2", "500i": "playfair-display-latin-500-italic.woff2" }, "name": "Playfair Display (SIL OFL)" },
+    "sans": { "family": "RM Sans", "files": { "500": "inter-latin-500-normal.woff2", "600": "inter-latin-600-normal.woff2", "700": "inter-latin-700-normal.woff2", "800": "inter-latin-800-normal.woff2" }, "name": "Inter (SIL OFL)" }
+  },
+  "safe": { "top": 168, "bottom_text_limit": 1330, "side": 64, "right_rail": 150 }
+}

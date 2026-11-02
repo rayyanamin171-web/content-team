@@ -1,0 +1,39 @@
+<!-- Preset: HOOK TITLE ("gold kicker + serif statement"). {{...}} is filled by build_reel.py.
+     On screen from frame 0 (frame 0 is the thumbnail). Words light up 90 ms apart, land, hold dead still, exit together. -->
+<template>
+  <style>
+    {{FONTFACE}}
+    #root { position: absolute; inset: 0; }
+    #hook-scrim { position: absolute; left: 0; top: 0; width: 1080px; height: 980px;
+      background: linear-gradient(180deg, rgba(14,26,43,.86) 0%, rgba(14,26,43,.62) 45%, rgba(14,26,43,0) 100%); }
+    #hook-box { position: absolute; left: 72px; right: 160px; top: {{TOP}}px; }
+    #hook-kicker { font: 600 32px/1 "RM Sans", sans-serif; letter-spacing: 7px; text-transform: uppercase; color: {{GOLD}}; }
+    #hook-rule { width: 140px; height: 4px; background: {{GOLD}}; margin: 26px 0 30px; transform-origin: left center; }
+    #hook-lines { font: 700 {{SIZE}}px/1.04 "RM Serif", serif; color: {{PAPER}}; letter-spacing: -1px; text-shadow: 0 4px 28px rgba(0,0,0,.45); }
+    #hook-lines .w { display: inline-block; margin-right: .22em; }
+    #hook-lines .hl { color: {{GOLD}}; font-style: normal; }
+  </style>
+  <div id="root" data-composition-id="hook" data-width="1080" data-height="1920">
+    <div id="hook-scrim"></div>
+    <div id="hook-box">
+      <div id="hook-kicker">{{KICKER}}</div>
+      <div id="hook-rule"></div>
+      <div id="hook-lines">{{WORDS}}</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const words = document.querySelectorAll("#hook-lines .w");
+    tl.fromTo("#hook-rule", { scaleX: 0.15 }, { scaleX: 1, duration: 0.5, ease: "expo.out" }, 0);
+    // Frame 0 is the thumbnail: the whole line is already readable, then each word lights up to full ink.
+    words.forEach((w, i) => {
+      tl.fromTo(w, { opacity: i === 0 ? 1 : 0.38 }, { opacity: 1, duration: 0.1, ease: "power2.out" }, i === 0 ? 0 : 0.04 + i * {{STAGGER}});
+    });
+    // one emphasis beat on the highlighted word
+    tl.fromTo("#hook-lines .hl", { scale: 1 }, { scale: 1.06, duration: 0.18, ease: "back.out(1.4)", transformOrigin: "left bottom" }, {{HL_AT}});
+    tl.to("#hook-lines .hl", { scale: 1, duration: 0.3, ease: "power2.out" }, {{HL_AT}} + 0.18);
+    // exit: quick blur-out, 40% shorter than the entrance
+    tl.to(["#hook-box", "#hook-scrim"], { opacity: 0, filter: "blur(8px)", duration: 0.2, ease: "power2.in" }, {{DUR}} - 0.24);
+    window.__timelines["hook"] = tl;
+  </script>
+</template>
