@@ -6,10 +6,13 @@ An AI agent team for building a premium UAE real estate personal brand.
 team/USER.md            Who we work for (shared by all agents)
 team/SOUL.md            How the team thinks (shared values, quality bar, learning loop)
 agents/atlas/           Atlas, the scriptwriter: IDENTITY.md + PLAYBOOK.md
+agents/frame/           Frame, thumbnails & covers: USER, SOUL, IDENTITY, PLAYBOOK, competitors
 .claude/agents/atlas.md Lets Claude Code run Atlas as a subagent
+.claude/agents/frame.md Lets Claude Code run Frame as a subagent
 LEARNINGS.md            Feedback turned into rules; the team's memory
 skills/                 Skills learned from GitHub links and resources
 scripts/reels|youtube/  Finished scripts
+thumbnails/<date-slug>/ Thumbnail briefs, mock-ups and finals
 ```
 
 ## Adding a new agent
@@ -27,3 +30,4 @@ Team goal: lead generation across platforms. Atlas reports to the CEO Agent. Not
 | Intro Video Agent | Intro videos | session_01BE86VQcKMAzaQvGnafLJJ4 | Active |
 | Salesforce Follow-up Agent | Lead follow-up in CRM | session_01KRg53ScxrxDm8ryvrJa5JF | Active |
 | Atlas (Content Scripts Agent) | Scriptwriter: Reels + YouTube | session_01FZPHhrTHecztmNRRDNigx5 | Active |
+| Frame (Thumbnail & Cover Agent) | YouTube thumbnails + IG/Reel covers | session_01KFxVAed9PuiHM5DH74iPMP | Active |

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- MOCK-UP ONLY. Placeholder shapes stand in for Rayan's photo and our own drone still of Al Maryah. No real logos. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B2A44"/>
+      <stop offset="0.55" stop-color="#6B4E3A"/>
+      <stop offset="1" stop-color="#D9A564"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2A3346"/>
+      <stop offset="0.6" stop-color="#4A4A52"/>
+      <stop offset="1" stop-color="#C8A15A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F3D493" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#C8A15A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0E1A2B" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#0E1A2B" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#0E1A2B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background: golden-hour sky + water (placeholder for drone still) -->
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <rect y="560" width="1280" height="160" fill="#2F6F73" opacity="0.55"/>
+
+  <!-- Hero branded tower (placeholder) -->
+  <rect x="745" y="60" width="150" height="530" rx="6" fill="url(#tower)"/>
+  <g stroke="#0E1A2B" stroke-opacity="0.35" stroke-width="2">
+    <line x1="745" y1="150" x2="895" y2="150"/><line x1="745" y1="230" x2="895" y2="230"/>
+    <line x1="745" y1="310" x2="895" y2="310"/><line x1="745" y1="390" x2="895" y2="390"/>
+    <line x1="745" y1="470" x2="895" y2="470"/>
+  </g>
+  <!-- Generic gold "brand plaque" glow: deliberately NOT a real hotel logo -->
+  <circle cx="820" cy="115" r="70" fill="url(#glow)"/>
+  <rect x="795" y="103" width="50" height="24" rx="3" fill="#C8A15A"/>
+
+  <!-- Left-side darkening so text reads -->
+  <rect width="1280" height="720" fill="url(#vignette)"/>
+
+  <!-- Text block, left. 4 words, 2 lines, ~110px cap height -->
+  <g font-family="Montserrat, 'Arial Black', Arial, sans-serif" font-weight="900" fill="#F5F1E8">
+    <text x="64" y="250" font-size="112" letter-spacing="-2">PAYING FOR</text>
+    <text x="64" y="370" font-size="112" letter-spacing="-2">A LOGO?</text>
+  </g>
+  <rect x="68" y="398" width="250" height="10" fill="#C8A15A"/>
+
+  <!-- Rayan placeholder, right third: head-and-shoulders cut-out, looking toward the tower -->
+  <g>
+    <path d="M900 720 C 910 560, 980 505, 1090 495 C 1200 505, 1265 560, 1280 720 Z" fill="#11151C"/>
+    <path d="M1060 500 L1090 600 L1120 500 Z" fill="#E9E4DA"/>
+    <ellipse cx="1090" cy="370" rx="105" ry="130" fill="#B98563"/>
+    <text x="1090" y="378" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#0E1A2B">RAYAN · calm,</text>
+    <text x="1090" y="406" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#0E1A2B">raised eyebrow</text>
+  </g>
+
+  <!-- Mock-up label (remove in final) -->
+  <text x="1216" y="40" text-anchor="end" font-family="Arial, sans-serif" font-size="18" fill="#F5F1E8" opacity="0.7">MOCK-UP · placeholders</text>
+</svg>

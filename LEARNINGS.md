@@ -4,6 +4,10 @@
 > Format: `YYYY-MM-DD · agent · RULE · (why / source)`
 
 ## Rules
+- 2026-11-02 · frame · No number goes on a thumbnail until Market Research verifies it; if unverified, cut it. (team non-negotiable; Maryah "2x" is single-source)
+- 2026-11-02 · frame · Never put hotel or developer logos on a thumbnail; show buildings we filmed ourselves. (trademark + compliance)
+- 2026-11-02 · frame · Thumbnail text asks, title answers: ≤4 words, never a repeat of the title. (youtube-structure)
+- 2026-11-02 · frame · In this niche, sharp questions and named risks on small channels beat polish (outliers up to 76x). Win on the promise, keep it calm. (vidIQ outlier research)
 - 2026-10-22 · atlas · Ask the Market Research Agent to verify [VERIFY] figures before finalising scripts. (team setup)
 - 2026-10-22 · atlas · Every script needs one clear lead-gen CTA while staying trust-first. (CEO Agent: team goal is lead generation)
 - 2026-10-21 · atlas · Start every YouTube video with the title + thumbnail, then write to deliver them. (youtube-structure)
@@ -23,9 +27,11 @@
 | 2026-10-21 | skills/fact-check.md | kkoppenhaver/cc-skills fact-check | Strong. Adapted for UAE property claims. |
 
 ## Connected Tools
+- **Network note (2026-11-02, Frame):** cloud sessions can't reach i.ytimg.com (YouTube thumbnail images), so competitor thumbnails can't be viewed directly. Allow the domain in the environment's network settings, or share screenshots.
 - **vidIQ** (connected 2026-10-21): public IG/YouTube research, outlier search, title/thumbnail scoring. YouTube channel @realestatewithrm (ID UCZqcGRP-DhtaWYUJ9qsfL_Q) is linked: 0 videos, 0 subs at connection. Instagram isn't linked in vidIQ yet.
 - **Supermetrics** (connected 2026-10-21): the Instagram Insights source still needs a login to Rayan's Meta account.
 
 ## Experiments To Run
+- 2026-11-02 · Maryah YouTube #1 thumbnail: A/B "PAYING FOR A LOGO?" vs "THE BRAND TAX?" with YouTube Test & Compare; log CTR in agents/frame/PLAYBOOK.md scoreboard.
 - 2026-10-29 · First post: Al Maryah Reel as an Instagram Trial Reel (non-followers first). Record results in posts/2026-10-29-maryah-reel-post.md after 24–72h, and use them to judge hook style and length.
 - Test hook angles (Mistake vs Insider vs Number) on the first 10 Reels and record which wins.
