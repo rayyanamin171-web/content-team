@@ -2,22 +2,24 @@
 
 > Every image used on the cover is logged here: source URL, author, licence and the credit line the caption needs.
 
-## Skyline photo (web)
-**Status: NOT SOURCED YET.** This cloud session's network policy blocks every free-licence photo site:
-`commons.wikimedia.org`, `upload.wikimedia.org`, `unsplash.com` / `images.unsplash.com`, `pexels.com` / `images.pexels.com`, `flickr.com`, `api.openverse.org`.
-Without opening the file page, the licence and author can't be verified, so no photo was picked. A web search found no Commons file clearly showing the Al Maryah skyline (the closest was "Abu Dhabi Skyline from Marina", not Al Maryah).
-
-To unblock: allow `commons.wikimedia.org` and `upload.wikimedia.org` (and optionally `unsplash.com`, `images.unsplash.com`, `pexels.com`, `images.pexels.com`) in the environment's network settings. Frame will then search, check the licence on the file page and fill in the table below.
+## Skyline photo (web): USED in v2 A
+Sourced and approved by Rayan via the CEO Agent (originals + `CREDITS.txt` in `inputs/2026-11-02-al-maryah/web-skyline/` at the repo root).
 
 | Field | Value |
 |---|---|
-| File | — |
-| Source URL | — |
-| Author | — |
-| Licence | — (accept CC0, CC BY, CC BY-SA, Unsplash Licence, Pexels Licence only) |
-| Attribution needed? | — |
-| Caption credit line | — |
-| Changes made | Cropped to 9:16, darkened with gradients (to note for CC BY-SA) |
+| File | `al-maryah-night-waterfront_pexels-naeem-alterawy-16136072.jpeg` (5760×3840) |
+| Source URL | https://www.pexels.com/photo/a-city-by-the-river-in-the-evening-16136072/ |
+| Author | Naeem Alterawy (Pexels) |
+| Licence | Pexels License (https://www.pexels.com/license/): free for commercial use |
+| Attribution needed? | **No** (optional) |
+| Caption credit line (optional) | Photo by Naeem Alterawy on Pexels |
+| Changes made | Vertical 9:16 crop centred on the ADGM towers; night sky extended upward with a matching dark gradient (no buildings added or changed); slight desaturation and navy grade; text and Rayan's cut-out composited on top. Prepared file: `inputs/skyline-web-a-naeem-1080x1920.jpg` |
+
+### Candidates not used
+| File | Licence | Why not |
+|---|---|---|
+| `al-maryah-lightning-night_pexels-eslam-mohammed-abdelmaksoud-28718190.jpeg` | Pexels License, credit optional | Stormy and dramatic, which is off-brand for "calm, not hype". A 9:16 crop can't hold both the lightning and the towers. |
+| `al-maryah-day-waterfront_wikimedia-mavariz-cc-by-sa-4.0.jpg` | CC BY-SA 4.0, **credit required, share-alike** | Daytime (series look is blue hour/night). Share-alike would make the cover CC BY-SA and require the credit, so avoid it for commercial use. If it's ever used, the caption must carry: "Al Mariah Island- Abudhabi" by MAVARIZ, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>, via Wikimedia Commons |
 
 ## Rayan's photo
 Rayan's own photos, supplied by him (`inputs/2026-11-02-al-maryah/` at the repo root). No credit needed.

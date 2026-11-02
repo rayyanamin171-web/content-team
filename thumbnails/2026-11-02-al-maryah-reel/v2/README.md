@@ -1,16 +1,18 @@
 # Al Maryah Reel Cover v2: Presenter Style (Rayan + Skyline)
 
-> Frame · 2026-11-02 · Status: **v2 A built with Rayan's cut-out. The skyline is still a placeholder** (web photo sites are blocked from this session; the video frame isn't uploaded yet). Free tools only. Nothing posted.
+> Frame · 2026-11-02 · Status: **v2 A FINAL DRAFT for Rayan:** licensed Pexels skyline (Naeem Alterawy, credit optional) + Rayan's headshot cut-out. Variant B (video frame) waits for the video. Free tools only. Nothing posted.
 
 ## Latest
-- **`ig-cover-v2-A-1080x1920.png`**: Rayan's headshot cut-out (background removed offline, 2x Lanczos upscale + light sharpen, colour-matched, gold edge light, shadow) over the placeholder skyline. Render: `node render.js --person inputs/rayan-headshot-cutout.png --ph 1000 --pright -150 --bg <skyline> --out ig-cover-v2-A-1080x1920.png`
+- **`ig-cover-v2-A-1080x1920.png`**: Rayan's headshot cut-out (background removed offline, 2x Lanczos upscale + light sharpen, colour-matched, gold edge light, shadow) over the licensed Al Maryah night skyline (`inputs/skyline-web-a-naeem-1080x1920.jpg`: 9:16 crop on the ADGM towers, sky extended upward, navy grade). Render: `node render.js --bg inputs/skyline-web-a-naeem-1080x1920.jpg --person inputs/rayan-headshot-cutout.png --ph 1000 --pright -150 --bright 0.86 --sat 0.88 --warm 0.03 --out ig-cover-v2-A-1080x1920.png`
+- **No variant C:** the other two web photos didn't fit (stormy lightning shot; daytime CC BY-SA shot needs a credit and share-alike). See `CREDITS.md`.
 - **`cutout-comparison-headshot-vs-awards.jpg`**: both of Rayan's photos tried. **Headshot chosen:** it's sharp at full size (face ≈ 260 px wide in the source). The awards photo had to be cropped above the trophy plaque, which carries Emaar/award text, leaving a face only ≈ 80 px wide. At cover size it's visibly soft, with JPEG blocking and a light halo from the glowing ring behind. No Emaar logo or award-wall text survives in either cut-out.
 - **Best next photo:** a sharper, waist-up shot turned slightly left (spec below) would beat both. The headshot is front-facing and only 600 px tall.
 
 ## What's here
 | File | What |
 |---|---|
-| `ig-cover-v2-A-1080x1920.png` | **v2 A:** Rayan cut-out + skyline placeholder |
+| `ig-cover-v2-A-1080x1920.png` | **v2 A:** Rayan cut-out + licensed web skyline |
+| `inputs/skyline-web-a-naeem-1080x1920.jpg` | Prepared 9:16 skyline background |
 | `cutout-comparison-headshot-vs-awards.jpg` | Headshot vs awards-photo cut-out, side by side |
 | `inputs/rayan-*-cutout.png` | Transparent cut-outs ready to reuse |
 | `ig-cover-v2-placeholder-1080x1920.png` | Layout preview with placeholders for the skyline and for Rayan |
