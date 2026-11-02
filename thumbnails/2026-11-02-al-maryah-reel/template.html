@@ -1,0 +1,130 @@
+<!doctype html>
+<!--
+  "Abu Dhabi Series" Reel cover template, by Frame.
+  1080x1920. Key content stays inside the centre 1080x1350 safe area (y 285 to 1635).
+  Change only the URL params for Parts 2-7:
+    ?part=2&island=Saadiyat%20Island&img=photos/saadiyat.jpg&layout=a&tag=1
+  layout: a = full-bleed photo (default) · b = big part number · c = photo top, navy panel bottom
+  tag:    1 = show "Abu Dhabi, honestly." line, 0 = hide
+  No img → a drawn placeholder skyline, clearly marked.
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "InterF"; src: url("fonts/inter-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  :root {
+    --ink: #0E1A2B;      /* navy */
+    --gold: #C8A15A;     /* accent */
+    --paper: #F5F1E8;    /* text */
+    --teal: #2F6F73;     /* water */
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1920px; background: var(--ink); overflow: hidden; }
+  .cover { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: "InterF", Inter, sans-serif; }
+
+  /* Imagery */
+  .photo { position: absolute; inset: 0; background-size: cover; background-position: center; }
+  .placeholder { position: absolute; inset: 0; }
+  .ph-note {
+    position: absolute; left: 50%; top: 560px; transform: translateX(-50%);
+    border: 3px dashed rgba(245,241,232,.75); color: var(--paper); padding: 18px 28px;
+    font-size: 30px; letter-spacing: 2px; text-align: center; line-height: 1.35; background: rgba(14,26,43,.45);
+    white-space: nowrap;
+  }
+  /* Darkening for legibility */
+  .shade { position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(14,26,43,.80) 0%, rgba(14,26,43,.15) 22%, rgba(14,26,43,0) 42%, rgba(14,26,43,.35) 60%, rgba(14,26,43,.92) 82%, rgba(14,26,43,.96) 100%); }
+
+  /* Series label (top of safe area) */
+  .series { position: absolute; top: 330px; left: 0; right: 0; text-align: center; }
+  .series span { display: inline-block; color: var(--gold); font-size: 48px; letter-spacing: 5px; text-transform: uppercase; font-weight: 600; }
+  .series::after { content: ""; display: block; width: 120px; height: 4px; background: var(--gold); margin: 26px auto 0; }
+
+  /* Island name (bottom of safe area) */
+  .title { position: absolute; left: 80px; right: 80px; bottom: 360px; text-align: center; color: var(--paper); }
+  .island { font-family: "Playfair Display", Georgia, serif; font-weight: 700; font-size: 168px; line-height: .98; letter-spacing: -1px; text-shadow: 0 4px 24px rgba(0,0,0,.35); }
+  .tagline { margin-top: 34px; font-size: 44px; letter-spacing: 1px; color: var(--paper); opacity: .9; }
+
+  /* Layout B: big part number */
+  .num { display: none; }
+  .layout-b .num { display: block; position: absolute; top: 560px; left: 0; right: 0; text-align: center;
+    font-family: "Playfair Display", Georgia, serif; font-size: 360px; line-height: 1; color: transparent;
+    -webkit-text-stroke: 4px var(--gold); opacity: .95; }
+  .layout-b .ph-note { top: 1000px; }
+
+  /* Layout C: photo top 58%, solid navy panel bottom */
+  .layout-c .photo, .layout-c .placeholder { bottom: auto; height: 1120px; }
+  .layout-c .shade { background: linear-gradient(180deg, rgba(14,26,43,.80) 0%, rgba(14,26,43,0) 20%, rgba(14,26,43,0) 50%, rgba(14,26,43,1) 58.4%, rgba(14,26,43,1) 100%); }
+  .layout-c .title { bottom: 380px; }
+  .layout-c .title::before { content: ""; display: block; width: 120px; height: 4px; background: var(--gold); margin: 0 auto 40px; }
+
+  /* Debug: show the 1080x1350 safe area */
+  .safe { display: none; position: absolute; left: 0; right: 0; top: 285px; height: 1350px; outline: 4px dashed #ff3b6b; }
+  .show-safe .safe { display: block; }
+</style>
+</head>
+<body>
+<div class="cover" id="cover">
+  <div class="photo" id="photo" hidden></div>
+  <svg class="placeholder" id="placeholder" viewBox="0 0 1080 1920" preserveAspectRatio="xMidYMid slice">
+    <!-- Drawn stand-in for a blue-hour waterfront skyline. Generic shapes, not any real building. -->
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#0E1A2B"/><stop offset=".45" stop-color="#22355A"/>
+        <stop offset=".62" stop-color="#7A5A48"/><stop offset=".70" stop-color="#D9A564"/>
+      </linearGradient>
+      <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#2F6F73"/><stop offset="1" stop-color="#0E1A2B"/>
+      </linearGradient>
+    </defs>
+    <rect width="1080" height="1920" fill="url(#sky)"/>
+    <g fill="#141E30">
+      <rect x="40"  y="980" width="110" height="380"/><rect x="170" y="860" width="130" height="500"/>
+      <rect x="320" y="760" width="120" height="600" rx="10"/><rect x="460" y="900" width="100" height="460"/>
+      <rect x="580" y="700" width="150" height="660" rx="60"/><rect x="750" y="820" width="120" height="540"/>
+      <rect x="890" y="940" width="150" height="420"/>
+    </g>
+    <g fill="#F3D493" opacity=".55">
+      <rect x="350" y="800" width="8" height="520"/><rect x="640" y="760" width="8" height="560"/><rect x="800" y="860" width="6" height="460"/>
+    </g>
+    <rect y="1360" width="1080" height="560" fill="url(#sea)"/>
+    <g fill="#F3D493" opacity=".25"><rect x="340" y="1380" width="30" height="220"/><rect x="630" y="1380" width="30" height="260"/></g>
+  </svg>
+  <div class="ph-note" id="phnote">PHOTO PLACEHOLDER<br>Al Maryah skyline from the water, blue hour</div>
+  <div class="shade"></div>
+
+  <div class="series"><span id="series">Abu Dhabi Series – Part 1</span></div>
+  <div class="num" id="num">01</div>
+  <div class="title">
+    <div class="island" id="island">Al Maryah<br>Island</div>
+    <div class="tagline" id="tagline">Abu Dhabi, honestly.</div>
+  </div>
+  <div class="safe"></div>
+</div>
+<script>
+  const q = new URLSearchParams(location.search);
+  const part = q.get("part") || "1";
+  const island = q.get("island") || "Al Maryah Island";
+  const img = q.get("img");
+  const layout = q.get("layout") || "a";
+  document.getElementById("cover").classList.add("layout-" + layout);
+  if (q.get("safe") === "1") document.getElementById("cover").classList.add("show-safe");
+  document.getElementById("series").textContent = "Abu Dhabi Series – Part " + part;
+  document.getElementById("num").textContent = part.padStart(2, "0");
+  // Break before the last word ("Island") so names sit on two balanced lines.
+  const words = island.trim().split(/\s+/);
+  const el = document.getElementById("island");
+  el.textContent = "";
+  if (words.length > 1) { el.append(words.slice(0, -1).join(" ")); el.append(document.createElement("br")); el.append(words.at(-1)); }
+  else el.append(island);
+  if (q.get("tag") === "0") document.getElementById("tagline").remove();
+  if (img) {
+    const p = document.getElementById("photo");
+    p.style.backgroundImage = `url("${img}")`; p.hidden = false;
+    document.getElementById("placeholder").remove(); document.getElementById("phnote").remove();
+  }
+</script>
+</body>
+</html>
