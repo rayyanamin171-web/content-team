@@ -1,0 +1,185 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 5
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 15,
+    "samples": [
+      0.833,
+      2.5,
+      4.167,
+      5.833,
+      7.5,
+      9.167,
+      10.833,
+      12.5,
+      14.167
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.833,
+      4.167,
+      7.5,
+      10.833,
+      14.167
+    ],
+    "checked": 19,
+    "passed": 19
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 4,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"ABU DHABI SERIES · PART 1 Al Maryah Island Comment “MARYA...\" (18 words) is on screen 2.00 s (±0.01 s), under the 4.42 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "ABU DHABI SERIES · PART 1 Al Maryah Island Comment “MARYAH” and I’ll send you my branded-residence checklist",
+        "selector": "#ec-box",
+        "dataAttributes": {},
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 235.13,
+          "y": 781.17,
+          "width": 609.74,
+          "height": 67.65999999999997
+        },
+        "time": 13,
+        "words": 18,
+        "seconds": 2.004,
+        "floorSeconds": 4.425
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"and I’ll send you my branded-residence checklist\" (8 words) is on screen 1.90 s (±0.01 s), under the 2.17 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "and I’ll send you my branded-residence checklist",
+        "selector": "#ec-cta-sub",
+        "dataAttributes": {},
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 141.27,
+          "y": 901,
+          "width": 797.46,
+          "height": 41
+        },
+        "time": 13.102,
+        "words": 8,
+        "seconds": 1.902,
+        "floorSeconds": 2.175
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"Rayan Maniya\" (2 words) is on screen 1.83 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "Rayan Maniya",
+        "selector": "#ec-name",
+        "dataAttributes": {},
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 391.31,
+          "y": 1142,
+          "width": 297.36000000000007,
+          "height": 62
+        },
+        "time": 13.172,
+        "words": 2,
+        "seconds": 1.832,
+        "floorSeconds": 2
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"RERA BRN 68958 · @RAYYANMANIYA\" (4 words) is on screen 1.83 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "RERA BRN 68958 · @RAYYANMANIYA",
+        "selector": "#ec-meta",
+        "dataAttributes": {},
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 222.47,
+          "y": 1214,
+          "width": 635.06,
+          "height": 34
+        },
+        "time": 13.172,
+        "words": 4,
+        "seconds": 1.832,
+        "floorSeconds": 2
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 120
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "0143644f-9dbb-4bd9-a001-0725551c7815",
+    "revision": null,
+    "report": "/home/user/content-team/reel-editor/02_Output/2026-11-02-al-maryah-part1-demo/build/.hyperframes/artifacts/checks/0143644f-9dbb-4bd9-a001-0725551c7815.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.9.3",
+    "latestVersion": "0.9.3",
+    "updateAvailable": false
+  }
+}

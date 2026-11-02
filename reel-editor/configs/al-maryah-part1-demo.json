@@ -1,0 +1,72 @@
+{
+  "_about": "Demo: Abu Dhabi Series - Part 1: Al Maryah Island. Placeholder footage until Rayan's 2-minute video is uploaded to 01_Input/footage/. Only verified, non-numeric claims on screen: ADGM, The Galleria and Cleveland Clinic are on Al Maryah Island (positions from OpenStreetMap/Overture). The only number is a straight-line distance computed from map coordinates.",
+  "id": "2026-11-02-al-maryah-part1-demo",
+  "footage": "01_Input/footage/al-maryah.mp4",
+  "placeholder_label": "Rayan on camera, Galleria promenade",
+  "timeline": [
+    {
+      "type": "footage",
+      "in": 0.0,
+      "dur": 2.0,
+      "punch": [
+        [
+          0,
+          1.0
+        ],
+        [
+          2.0,
+          1.04
+        ]
+      ]
+    },
+    {
+      "type": "map",
+      "scene": "toolkit/map/scenes/al-maryah-part1.json"
+    },
+    {
+      "type": "footage",
+      "in": 2.0,
+      "dur": 2.2,
+      "punch": [
+        [
+          0,
+          1.0
+        ],
+        [
+          1.05,
+          1.0
+        ],
+        [
+          1.06,
+          1.09
+        ]
+      ]
+    },
+    {
+      "type": "endcard",
+      "dur": 2.3
+    }
+  ],
+  "hook": {
+    "kicker": "Abu Dhabi Series · Part 1",
+    "text": "Where does Abu Dhabi *do business?*",
+    "dur": 2.0
+  },
+  "lower_third": {
+    "start": 10.6,
+    "dur": 2.0
+  },
+  "captions": {
+    "src": "01_Input/transcripts/2026-11-02-al-maryah-demo.srt",
+    "time_base": "reel",
+    "max_words": 5
+  },
+  "end_card": {
+    "kicker": "Abu Dhabi Series · Part 1",
+    "title": "Al Maryah Island",
+    "cta": "Comment “MARYAH”",
+    "cta_sub": "and I’ll send you my branded-residence checklist"
+  },
+  "music": null,
+  "sfx": true
+}

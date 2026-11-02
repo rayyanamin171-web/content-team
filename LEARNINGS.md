@@ -4,6 +4,8 @@
 > Format: `YYYY-MM-DD · agent · RULE · (why / source)`
 
 ## Rules
+- 2026-11-02 · reel-editor · Map visuals use only licensed open data (OSM via Overture, Natural Earth, Sentinel-2), with the credit on screen. Distances are straight-line and labelled; drive times only when verified. (Brief: map data must be licensed; never invent facts)
+- 2026-11-02 · reel-editor · Reel text stays inside y 168–1330 px (IG UI covers the rest) and the hook is readable on frame 0. (HyperFrames vertical rules)
 - 2026-11-02 · atlas · When a script is finished, send Frame (Thumbnail & Cover Agent) a short brief: title, hook, key promise, verified facts, assets. (CEO Agent)
 - 2026-10-22 · atlas · Ask the Market Research Agent to verify [VERIFY] figures before finalising scripts. (team setup)
 - 2026-10-22 · atlas · Every script needs one clear lead-gen CTA while staying trust-first. (CEO Agent: team goal is lead generation)
