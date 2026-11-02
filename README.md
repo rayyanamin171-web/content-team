@@ -26,4 +26,5 @@ Team goal: lead generation across platforms. Atlas reports to the CEO Agent. Not
 | Market Research Agent | Dubai/Abu Dhabi market data | session_01UHyRw7Y71tvaFoetWHaubw | Active |
 | Intro Video Agent | Intro videos | session_01BE86VQcKMAzaQvGnafLJJ4 | Active |
 | Salesforce Follow-up Agent | Lead follow-up in CRM | session_01KRg53ScxrxDm8ryvrJa5JF | Active |
+| Frame (Thumbnail & Cover Agent) | YouTube thumbnails + Reel covers | session_01KFxVAed9PuiHM5DH74iPMP | Active |
 | Atlas (Content Scripts Agent) | Scriptwriter: Reels + YouTube | session_01FZPHhrTHecztmNRRDNigx5 | Active |
