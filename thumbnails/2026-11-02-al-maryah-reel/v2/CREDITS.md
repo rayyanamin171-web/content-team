@@ -20,7 +20,9 @@ To unblock: allow `commons.wikimedia.org` and `upload.wikimedia.org` (and option
 | Changes made | Cropped to 9:16, darkened with gradients (to note for CC BY-SA) |
 
 ## Rayan's photo
-Rayan's own photo, supplied by him. No credit needed.
+Rayan's own photos, supplied by him (`inputs/2026-11-02-al-maryah/` at the repo root). No credit needed.
+- Used: `rayan-headshot-white-bg-469x600.jpeg` → `inputs/rayan-headshot-cutout.png`
+- Tried, not used: `rayan-emaar-quarterly-broker-awards-2025-960x1280.jpeg`, cropped chest-up above the plaque so that no Emaar logo or award text is included → `inputs/rayan-awards-cutout.png`
 
 ## Video frame (alternative background)
 A frame from Rayan's own Al Maryah video. No credit needed.

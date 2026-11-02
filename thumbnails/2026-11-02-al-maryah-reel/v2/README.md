@@ -1,11 +1,19 @@
 # Al Maryah Reel Cover v2: Presenter Style (Rayan + Skyline)
 
-> Frame · 2026-11-02 · Status: **layout and pipeline ready; waiting on 3 inputs.** Free tools only. Nothing posted.
+> Frame · 2026-11-02 · Status: **v2 A built with Rayan's cut-out. The skyline is still a placeholder** (web photo sites are blocked from this session; the video frame isn't uploaded yet). Free tools only. Nothing posted.
+
+## Latest
+- **`ig-cover-v2-A-1080x1920.png`**: Rayan's headshot cut-out (background removed offline, 2x Lanczos upscale + light sharpen, colour-matched, gold edge light, shadow) over the placeholder skyline. Render: `node render.js --person inputs/rayan-headshot-cutout.png --ph 1000 --pright -150 --bg <skyline> --out ig-cover-v2-A-1080x1920.png`
+- **`cutout-comparison-headshot-vs-awards.jpg`**: both of Rayan's photos tried. **Headshot chosen:** it's sharp at full size (face ≈ 260 px wide in the source). The awards photo had to be cropped above the trophy plaque, which carries Emaar/award text, leaving a face only ≈ 80 px wide. At cover size it's visibly soft, with JPEG blocking and a light halo from the glowing ring behind. No Emaar logo or award-wall text survives in either cut-out.
+- **Best next photo:** a sharper, waist-up shot turned slightly left (spec below) would beat both. The headshot is front-facing and only 600 px tall.
 
 ## What's here
 | File | What |
 |---|---|
-| `ig-cover-v2-placeholder-1080x1920.png` | Layout preview with marked placeholders for the skyline and for Rayan |
+| `ig-cover-v2-A-1080x1920.png` | **v2 A:** Rayan cut-out + skyline placeholder |
+| `cutout-comparison-headshot-vs-awards.jpg` | Headshot vs awards-photo cut-out, side by side |
+| `inputs/rayan-*-cutout.png` | Transparent cut-outs ready to reuse |
+| `ig-cover-v2-placeholder-1080x1920.png` | Layout preview with placeholders for the skyline and for Rayan |
 | `template.html` | v2 source: v1 style (gold label, Playfair title, navy gradients) + Rayan cut-out layer |
 | `render.js` | Renders the template to PNG |
 | `tools/cutout.mjs` | Offline background removal (tested, works) |

@@ -128,6 +128,9 @@
     document.documentElement.style.setProperty("--match", `brightness(${bright}) saturate(${sat}) sepia(${warm})`);
     const img = document.createElement("img"); img.src = person;
     const box = document.getElementById("person"); box.innerHTML = ""; box.append(img);
+    // ph = cut-out height in px (default 1200), pright = offset from the right edge (default -40)
+    if (q.get("ph")) box.style.height = q.get("ph") + "px";
+    if (q.get("pright")) box.style.right = q.get("pright") + "px";
     document.getElementById("pnote").remove();
   }
 </script>
