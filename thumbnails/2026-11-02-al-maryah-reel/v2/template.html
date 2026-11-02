@@ -8,6 +8,7 @@
     bgpos=50%25%2050%25            CSS background-position, to keep the towers in frame
     person=inputs/rayan-cutout.png transparent PNG of Rayan (from cutout.mjs)
     warm=0.06 bright=0.95 sat=0.95 colour match of Rayan to the scene (see README)
+    rim=0    no gold edge glow · noperson=1 skyline + text only
     tag=1|0  show "Abu Dhabi, honestly."
     safe=1   outline the safe area
   Missing bg or person → clearly marked placeholders.
@@ -41,7 +42,7 @@
   .person { position: absolute; right: -40px; bottom: 0; height: 1200px; width: 860px; }
   .person img { position: absolute; right: 0; bottom: 0; height: 100%; width: auto; max-width: none;
     /* colour match is set from URL params in the script below */
-    filter: var(--match) drop-shadow(-5px -2px 6px rgba(200,161,90,.55)) drop-shadow(-24px 18px 40px rgba(0,0,0,.55)); }
+    filter: var(--match) var(--rim, drop-shadow(-5px -2px 6px rgba(200,161,90,.55))) drop-shadow(-18px 14px 30px rgba(0,0,0,.5)); }
   .person svg { position: absolute; right: 0; bottom: 0; height: 100%; }
   .note.pnote { right: 60px; top: 1690px; }
   /* Floor fade over Rayan's lower body so the cut-out sits in the scene */
@@ -122,6 +123,9 @@
     document.getElementById("bgph").remove(); document.getElementById("bgnote").remove();
   }
   const person = q.get("person");
+  // rim=0 removes the gold edge glow; noperson=1 renders skyline + text only
+  if (q.get("rim") === "0") document.documentElement.style.setProperty("--rim", "drop-shadow(0 0 0 transparent)");
+  if (q.get("noperson") === "1") { document.getElementById("person").remove(); document.getElementById("pnote").remove(); }
   if (person) {
     // Colour match: pull Rayan toward the scene's blue-hour light. Tune per photo.
     const warm = parseFloat(q.get("warm") ?? "0.06"), bright = q.get("bright") ?? "0.95", sat = q.get("sat") ?? "0.95";
@@ -131,6 +135,11 @@
     // ph = cut-out height in px (default 1200), pright = offset from the right edge (default -40)
     if (q.get("ph")) box.style.height = q.get("ph") + "px";
     if (q.get("pright")) box.style.right = q.get("pright") + "px";
+    // pbottom = lift Rayan up (px); the bottom of the cut-out fades out so no hard chest line shows
+    if (q.get("pbottom")) {
+      box.style.bottom = q.get("pbottom") + "px";
+      img.style.webkitMaskImage = img.style.maskImage = "linear-gradient(to top, transparent 0%, #000 28%)";
+    }
     document.getElementById("pnote").remove();
   }
 </script>

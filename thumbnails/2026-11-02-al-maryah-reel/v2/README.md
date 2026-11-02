@@ -2,7 +2,13 @@
 
 > Frame · 2026-11-02 · Status: **v2 A FINAL DRAFT for Rayan:** licensed Pexels skyline (Naeem Alterawy, credit optional) + Rayan's headshot cut-out. Variant B (video frame) waits for the video. Free tools only. Nothing posted.
 
-## Latest
+## Latest (after Rayan's feedback: "make my photo smaller")
+- **`ig-cover-v2-A-small-1080x1920.png`** ← **recommended.** Rayan at 65% of v2 A's size, bottom-right, shoulders cropped by the frame edge, so the skyline and ADGM towers are the hero. Halo removed: matte eroded ~3 px, feathered 1.2 px, gold edge glow off (`--rim 0`). Lifted 170 px with a soft bottom fade so his face stays inside the 4:5 grid crop. Cut-out: `inputs/rayan-headshot-cutout-clean.png`.
+  Render: `node render.js --bg inputs/skyline-web-a-naeem-1080x1920.jpg --person inputs/rayan-headshot-cutout-clean.png --rim 0 --ph 650 --pright -80 --pbottom 170 --bright 0.86 --sat 0.88 --warm 0.03 --out ig-cover-v2-A-small-1080x1920.png`
+- **`ig-cover-v2-D-1080x1920.png`**: no Rayan, skyline + text only (`--noperson 1`), for comparison.
+- **E/F (more photos):** waiting. No files yet in `inputs/2026-11-02-al-maryah/more-photos/`.
+
+## Earlier
 - **`ig-cover-v2-A-1080x1920.png`**: Rayan's headshot cut-out (background removed offline, 2x Lanczos upscale + light sharpen, colour-matched, gold edge light, shadow) over the licensed Al Maryah night skyline (`inputs/skyline-web-a-naeem-1080x1920.jpg`: 9:16 crop on the ADGM towers, sky extended upward, navy grade). Render: `node render.js --bg inputs/skyline-web-a-naeem-1080x1920.jpg --person inputs/rayan-headshot-cutout.png --ph 1000 --pright -150 --bright 0.86 --sat 0.88 --warm 0.03 --out ig-cover-v2-A-1080x1920.png`
 - **No variant C:** the other two web photos didn't fit (stormy lightning shot; daytime CC BY-SA shot needs a credit and share-alike). See `CREDITS.md`.
 - **`cutout-comparison-headshot-vs-awards.jpg`**: both of Rayan's photos tried. **Headshot chosen:** it's sharp at full size (face ≈ 260 px wide in the source). The awards photo had to be cropped above the trophy plaque, which carries Emaar/award text, leaving a face only ≈ 80 px wide. At cover size it's visibly soft, with JPEG blocking and a light halo from the glowing ring behind. No Emaar logo or award-wall text survives in either cut-out.
@@ -11,7 +17,9 @@
 ## What's here
 | File | What |
 |---|---|
-| `ig-cover-v2-A-1080x1920.png` | **v2 A:** Rayan cut-out + licensed web skyline |
+| `ig-cover-v2-A-small-1080x1920.png` | **v2 A-small (recommended):** smaller Rayan, clean edges |
+| `ig-cover-v2-D-1080x1920.png` | **v2 D:** skyline + text, no Rayan |
+| `ig-cover-v2-A-1080x1920.png` | v2 A: first version, large Rayan (superseded) |
 | `inputs/skyline-web-a-naeem-1080x1920.jpg` | Prepared 9:16 skyline background |
 | `cutout-comparison-headshot-vs-awards.jpg` | Headshot vs awards-photo cut-out, side by side |
 | `inputs/rayan-*-cutout.png` | Transparent cut-outs ready to reuse |
@@ -20,7 +28,7 @@
 | `render.js` | Renders the template to PNG |
 | `tools/cutout.mjs` | Offline background removal (tested, works) |
 | `tools/grab-frames.sh` | FFmpeg: pulls 9:16 frames from a video + a numbered contact sheet (tested) |
-| `CREDITS.md` | Image sources and licences (web photo pending) |
+| `CREDITS.md` | Image sources and licences |
 
 ## Layout
 - **Top-left:** gold label "ABU DHABI SERIES – PART 1", gold rule, then "Al Maryah / Island" in Playfair Display Bold 158 px, tagline "Abu Dhabi, honestly."
