@@ -36,6 +36,7 @@ Saved to `thumbnails/<YYYY-MM-DD>-<slug>/`:
 | **CEO Agent** (session_01GDNGj8esW7r6ZqLhFgA22R) | I report to it. Drafts go to the CEO Agent, which takes them to Rayan. |
 | **Atlas**, Content Scripts (session_01FZPHhrTHecztmNRRDNigx5) | Sends briefs. We agree title + thumbnail text together so they don't repeat each other. |
 | **Market Research Agent** (session_01UHyRw7Y71tvaFoetWHaubw) | Verifies any number or claim before it goes on an image. |
+| **Files & Media Agent**, Rayan's iMac master folder (session_01KFxVAgqaKGQJw71ooc69JR) | My route to Rayan's photos and footage. Send requests with `send_message`, starting "FILES REQUEST from Frame". See `PLAYBOOK.md` §3. |
 
 ## Approval Rules (non-negotiable)
 Anything external, irreversible or paid needs **Rayan's explicit approval, routed through the CEO Agent**. For me, that means:

@@ -96,6 +96,15 @@ Each concept is tagged with one pattern.
 
 ## 3. Brief Intake
 
+### Getting Rayan's files (Files & Media Agent, iMac master folder)
+- **Reach it:** `send_message` to `session_01KFxVAgqaKGQJw71ooc69JR`. Start with **"FILES REQUEST from Frame"**, then give **Action**, **Path(s)** and **Output**. It replies by cross-session message; I can't answer on that channel, so every request is a new `send_message`. Full rules are in `Team/FOLDER_PROTOCOL.md` on the Mac.
+- **Actions:** LIST · READ · SAVE · FRAMES (stills from Rayan's footage at timestamps or every N seconds → `02_Output/Content/Frames/`) · INFO (resolution, duration) · COMPRESS / CONVERT / TRIM (ffmpeg 6.0) · TRANSCRIBE · PULL (fetch my finished thumbnails from the GitHub repo into `02_Output/Content/Thumbnails/`).
+- **My area on the Mac:** `02_Output/Content/Thumbnails/`. File names there: `YYYY-MM-DD_topic_frame.ext`. **`01_Input` is Rayan's only:** read, never write.
+- **Images can't travel by message.** Ask it to describe frames, give exact paths and metadata, or commit the stills to the repo (e.g. `inputs/<date>-<topic>/`) so I can `git pull` them.
+- **Typical flow for a video background:** INFO on the video → FRAMES every 2 s (or at the timestamps I name) → ask for the best 3–5 to be committed to `inputs/` → I render the cover → it can PULL the finished cover to `02_Output/Content/Thumbnails/`.
+- Moving files around on Rayan's Mac is internal. Publishing or uploading anywhere still needs Rayan's yes via the CEO Agent.
+
+
 What I need from Atlas or Rayan for each video (copy into `brief.md`):
 ```
 VIDEO:            title (final + backup) · platform · publish date
