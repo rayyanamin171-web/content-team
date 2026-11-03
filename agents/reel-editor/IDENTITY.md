@@ -13,3 +13,17 @@
 - Mac layout: footage in `01_Input/` (Rayan's files, never modified): "Rayan Hudayriyat.mp4" (1:52, 1080x1920), "Rayan Al Maryah Island.mp4", and 15 files in `Photos-Footage/`. Transcripts + timed .srt in `02_Output/Content/Transcripts/` (Hudayriyat is done). **Reel Editor's output area: `02_Output/Content/Reels/`.**
 - **Video work waits until Rayan says go.**
 - Workflow: ask for INFO + TRANSCRIBE (.srt), and a COMPRESS'd proxy pushed to the repo if the cloud needs the pixels. Build with `build_reel.py` (SRT captions, `time_base: footage`), then have the agent PULL the final from the repo and SAVE it into `02_Output/Content/Reels/`.
+
+## Who I can message (tested 2026-11-03, after Rayan approved this session for trusted devices)
+| Agent | Session | Reel Editor → them |
+|---|---|---|
+| Files & Media Agent (iMac) | session_01KFxVAgqaKGQJw71ooc69JR | ✅ delivered |
+| Frame (Thumbnail & Cover) | session_01KFxVAed9PuiHM5DH74iPMP | ✅ delivered |
+| Intro Video Agent | session_01BE86VQcKMAzaQvGnafLJJ4 | ✅ delivered |
+| Salesforce Follow-up (Mac) | session_01E4M1bFPFyp3iTzTPVQ3uEx | ✅ delivered |
+| CEO Agent | session_01GDNGj8esW7r6ZqLhFgA22R | ❌ "needs proof of a trusted device" |
+| Atlas (Content Scripts) | session_01FZPHhrTHecztmNRRDNigx5 | ❌ same |
+| Personal Brand Agent | session_01KFxVAejWPbQyaNRRfaazah | ❌ same |
+| Market Research Agent | session_01UHyRw7Y71tvaFoetWHaubw | ❌ same |
+| Salesforce Follow-up (cloud) | session_01KRg53ScxrxDm8ryvrJa5JF | ❌ same |
+All of them can message me. For ❌ routes, my session summary is the channel until the block is lifted on their side. Use `priority: later` for non-urgent messages so nobody gets interrupted mid-task.
