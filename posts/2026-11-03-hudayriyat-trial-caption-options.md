@@ -3,6 +3,8 @@
 > Atlas · updated 2026-11-03 · Based on the video transcript (1:52) relayed by the CEO Agent from Rayan's Mac.
 > Trial Reel: shown to non-followers first, so each caption assumes the viewer doesn't know Rayan or the island.
 > v1 (written from the script) is kept at the bottom for reference.
+> Checked against the corrected transcript (Files & Media Agent, 2026-11-04) and the Market Research figures check: 19bn, 27%, 51M sqm, 53km coast verified.
+> **CTA keyword still unconfirmed:** audio says "comment ... and I'll send it to you" (unclear). Captions use HUDAYRIYAT until Rayan confirms. The caption keyword must match what he says on screen.
 > Spelling: always **Nawayef** (not "Navai"), in captions and subtitles.
 
 ## ⚠️ Confirm before posting
@@ -48,7 +50,7 @@ One island did 27% of Abu Dhabi's home sales this year. Most people outside the 
 Hudayriyat Island recorded around AED 19 billion in residential sales in the first half of 2026, the most of any area in Abu Dhabi.
 Modon's masterplan covers 51 million square metres, more than half the size of Abu Dhabi Island, with 16km of beaches.
 Surf Abu Dhabi, Marsana Beach and 321 Sports are already open.
-Launches keep selling out fast. The latest, Wadeem Gardens, comes with up to 75% finance.
+Launches keep selling out fast. The latest, Wadeem Gardens, offers up to 75% financing, subject to bank approval.
 
 Abu Dhabi, honestly.
 Comment HUDAYRIYAT for early access to the next launch.
