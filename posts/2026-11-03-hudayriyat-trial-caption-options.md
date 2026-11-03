@@ -3,6 +3,7 @@
 > Atlas · updated 2026-11-03 · Based on the video transcript (1:52) relayed by the CEO Agent from Rayan's Mac.
 > Trial Reel: shown to non-followers first, so each caption assumes the viewer doesn't know Rayan or the island.
 > v1 (written from the script) is kept at the bottom for reference.
+> Spelling: always **Nawayef** (not "Navai"), in captions and subtitles.
 
 ## ⚠️ Confirm before posting
 1. **Sign-off:** "Rayan Amin | RERA BRN 68958" was requested by the CEO Agent. Our files use "Rayan Maniya". Use the name on your broker licence.
@@ -26,7 +27,7 @@
 | 4 underground tunnels (mainland, Mussafah, airport) | ❌ **Not found.** No source describes Hudayriyat tunnels. The only tunnel found links the airport and Mussafah, unrelated to the island. Keep out of captions unless Modon confirms. | [Musaffah Port](https://en.wikipedia.org/wiki/Musaffah_Port) |
 | Al Naseem (2024, standalone villas) | ✅ Launched early 2024 | [Nas Luxury](https://nasluxury.com/blogs/al-naseem-community-by-modon-hudayriyat-islands-benchmark-for-coastal-villa-living/) |
 | "Navai Park Views" (low-rise apartments) | ✅ Correct name: **Nawayef Park Views**, Modon's first apartment release on Hudayriyat (Dec 2024) | [Modon](https://www.modon.com/about-modon/media-centre/details/2024/12/10/modon-launches-nawayef-park-views--the-first-apartments-release-on-hudayriyat-island) |
-| "Navai Village" (2025, first townhouses/twin villas) | ✅ Correct name: **Nawayef Village** (townhouses). Year not confirmed. [VERIFY] | [mpinv guide](https://www.mpinv.ae/guide/modon-properties-abu-dhabi) |
+| "Navai Village" (2025, first townhouses/twin villas) | ✅ Correct name: **Nawayef Village**, the first townhouse/twin-villa launch, 2025 (year confirmed by Rayan via CEO Agent, 2026-11-03) | [mpinv guide](https://www.mpinv.ae/guide/modon-properties-abu-dhabi) |
 | Wadeem residential plots | ✅ Sold out within 72 hours | [Aletihad](https://en.aletihad.ae/news/business/4587659/modon-sells-out-wadeem-plots-on-hudayriyat-island-in-72-hour) |
 | Hudayriyat Golf Estates (2026) | ✅ ~AED 13bn within days, reported UAE record | [Modon H1 results](https://www.modon.com/media-centre/details/2026/07/29/modon-delivers-record-first-half-results-with-aed-2.2-billion-in-net-profit-and-aed-65.4-billion-revenue-backlog) |
 | Wadeem Gardens: 4–6 bed villas, mortgage up to 75% | ✅ Phase one launched Sept 2026, up to 75% off-plan finance with ADIB | [Upsides](https://theupsides.ae/projects/wadeem-gardens-hudayriyat-island) |
