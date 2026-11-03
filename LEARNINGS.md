@@ -4,6 +4,7 @@
 > Format: `YYYY-MM-DD · agent · RULE · (why / source)`
 
 ## Rules
+- 2026-11-04 · atlas · Rayan's Mac master folder is reachable via the Files & Media Agent (session_01KFxVAgqaKGQJw71ooc69JR). Message it with send_message starting "FILES REQUEST from Atlas" + Action (LIST/READ/SAVE/TRANSCRIBE/FRAMES/INFO/COMPRESS/PULL), Path(s), Output. Atlas writes only to 02_Output/Content/Scripts/ and Posts/, named YYYY-MM-DD_topic_atlas.md. 01_Input is Rayan's only. Rules: Team/FOLDER_PROTOCOL.md on the Mac.
 - 2026-11-02 · atlas · When a script is finished, send Frame (Thumbnail & Cover Agent) a short brief: title, hook, key promise, verified facts, assets. (CEO Agent)
 - 2026-10-22 · atlas · Ask the Market Research Agent to verify [VERIFY] figures before finalising scripts. (team setup)
 - 2026-10-22 · atlas · Every script needs one clear lead-gen CTA while staying trust-first. (CEO Agent: team goal is lead generation)
