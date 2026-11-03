@@ -1,4 +1,107 @@
-# Hudayriyat Island Trial Reel: Caption Options
+# Hudayriyat Island Trial Reel: Caption Options (v2, matched to the video)
+
+> Atlas · updated 2026-11-03 · Based on the video transcript (1:52) relayed by the CEO Agent from Rayan's Mac.
+> Trial Reel: shown to non-followers first, so each caption assumes the viewer doesn't know Rayan or the island.
+> v1 (written from the script) is kept at the bottom for reference.
+
+## ⚠️ Confirm before posting
+1. **Sign-off:** "Rayan Amin | RERA BRN 68958" was requested by the CEO Agent. Our files use "Rayan Maniya". Use the name on your broker licence.
+2. **Licence number:** RERA BRN is a Dubai number. Hudayriyat is in Abu Dhabi (regulator: ADREC). Check with compliance which licence number belongs on Abu Dhabi content. [VERIFY]
+3. **Spoken claims in the video:** see the claim check below. Three lines in the video couldn't be verified. Consider re-recording or captioning over them before posting.
+
+---
+
+## Video claim check
+| What the video says | Verdict | Source / note |
+|---|---|---|
+| Hudayriyat had the highest sales in H1 2026: AED 19bn, 27% of the emirate | ✅ **Verified.** ADREC H1 2026 data, widely reported (Aug 2026). Top market for the 2nd consecutive quarter; Saadiyat 2nd. Note: most outlets say 27% of *sales value*; The National says 27% of *units*. Saying "27% of Abu Dhabi's residential sales" covers both. | [Gulf News](https://gulfnews.com/business/property/hudayriyat-island-tops-abu-dhabi-property-market-with-dh19-billion-in-sales-1.500648019), [The National](https://www.thenationalnews.com/business/property/2026/08/21/al-hudayriyat-island-tops-abu-dhabi-property-sales-in-first-half-of-2026/), [Arabian Business](https://www.arabianbusiness.com/real-estate/abu-dhabi-property-hudayriyat-island-leads-market-with-5-2bn-of-home-sales), [Emirates 24/7](https://www.emirates247.com/business/hudayriyat-tops-abu-dhabi-real-estate-market-for-2nd-consecutive-quarter-with-aed19-billion-in-h1-2026-says-adrec-report/4787) |
+| 51M m², ~53km coastline, 16km beaches | ✅ Official masterplan | [Abu Dhabi Media Office](https://www.mediaoffice.abudhabi/en/infrastructure/in-line-with-the-directives-of-sheikh-mohamed-bin-zayed-modon-properties-reveals-hudayriyat-island-masterplan-spanning-51-million-square-meters-equivalent-to-538-of-abu-dhabi-island/) |
+| "Half the size of the Abu Dhabi mainland" | ⚠️ **Wording fix.** Official: 53.8% of **Abu Dhabi Island**, not the mainland. Use "more than half the size of Abu Dhabi Island" in captions. | Same |
+| Modon is master developer | ✅ | [Modon](https://www.modon.com/real-estate/hudayriyat-island) |
+| Marsana Beach, Surf Abu Dhabi, 321 Sports open | ✅ Listed as existing in Modon/official coverage; Surf Abu Dhabi opened Oct 2024 | [Media Office](https://www.mediaoffice.abudhabi/en/infrastructure/in-line-with-the-directives-of-sheikh-mohamed-bin-zayed-modon-properties-reveals-hudayriyat-island-masterplan-spanning-51-million-square-meters-equivalent-to-538-of-abu-dhabi-island/), [The National](https://thenationalnews.com/sport/2025/02/14/world-surf-league-abu-dhabi-hudayriyat-island) |
+| Velodrome with rooftop cycling track "soon" | ⚠️ A 2026 guide says Velodrome Abu Dhabi opened in 2025; the rooftop track comes from the original masterplan and its completion is unconfirmed. "Soon" may be outdated. [VERIFY] | [Christie's area guide](https://www.christiesrealestatedubai.com/areas/abu-dhabi/al-hudayriat-island/), [Gulf Construction](https://gulfconstructiononline.com/Article/1627667/Hudayriyat_Island_masterplan_unveiled) |
+| 28km cycling tracks now, 200km planned | ⚠️ Masterplan figure is **220km**. The "28km now" figure wasn't found. [VERIFY] | [Media Office](https://www.mediaoffice.abudhabi/en/infrastructure/in-line-with-the-directives-of-sheikh-mohamed-bin-zayed-modon-properties-reveals-hudayriyat-island-masterplan-spanning-51-million-square-meters-equivalent-to-538-of-abu-dhabi-island/) |
+| Equestrian | ❓ Not checked in sources found [VERIFY] | — |
+| 16 international schools, 7 healthcare centres planned | ❌ **Not found.** 2026 guides say no school or hospital operator has been announced on the island yet. Keep out of captions unless Modon confirms. | [Cresco 2026 guide](https://crescorealestate.ae/area-guides/hudayriyat-island/) |
+| 4 underground tunnels (mainland, Mussafah, airport) | ❌ **Not found.** No source describes Hudayriyat tunnels. The only tunnel found links the airport and Mussafah, unrelated to the island. Keep out of captions unless Modon confirms. | [Musaffah Port](https://en.wikipedia.org/wiki/Musaffah_Port) |
+| Al Naseem (2024, standalone villas) | ✅ Launched early 2024 | [Nas Luxury](https://nasluxury.com/blogs/al-naseem-community-by-modon-hudayriyat-islands-benchmark-for-coastal-villa-living/) |
+| "Navai Park Views" (low-rise apartments) | ✅ Correct name: **Nawayef Park Views**, Modon's first apartment release on Hudayriyat (Dec 2024) | [Modon](https://www.modon.com/about-modon/media-centre/details/2024/12/10/modon-launches-nawayef-park-views--the-first-apartments-release-on-hudayriyat-island) |
+| "Navai Village" (2025, first townhouses/twin villas) | ✅ Correct name: **Nawayef Village** (townhouses). Year not confirmed. [VERIFY] | [mpinv guide](https://www.mpinv.ae/guide/modon-properties-abu-dhabi) |
+| Wadeem residential plots | ✅ Sold out within 72 hours | [Aletihad](https://en.aletihad.ae/news/business/4587659/modon-sells-out-wadeem-plots-on-hudayriyat-island-in-72-hour) |
+| Hudayriyat Golf Estates (2026) | ✅ ~AED 13bn within days, reported UAE record | [Modon H1 results](https://www.modon.com/media-centre/details/2026/07/29/modon-delivers-record-first-half-results-with-aed-2.2-billion-in-net-profit-and-aed-65.4-billion-revenue-backlog) |
+| Wadeem Gardens: 4–6 bed villas, mortgage up to 75% | ✅ Phase one launched Sept 2026, up to 75% off-plan finance with ADIB | [Upsides](https://theupsides.ae/projects/wadeem-gardens-hudayriyat-island) |
+| "The third hill" (upcoming) | ❓ **Unclear.** Nawayef has two man-made hills, and Nawayef East is described as mansions on a 60m hill. No "third hill" launch found. Leave it out of the caption. | [Modon](https://www.modon.com/about-modon/media-centre/details/2024/12/10/modon-launches-nawayef-park-views--the-first-apartments-release-on-hudayriyat-island) |
+
+---
+
+## On-screen hook text (first 2 seconds), pick one
+1. **AED 19 BILLION IN 6 MONTHS**
+2. **ABU DHABI'S #1 SELLING ISLAND**
+3. **27% OF ABU DHABI'S SALES. ONE ISLAND.**
+
+---
+
+## Option A · Curiosity hook (Atlas pick)
+One island did 27% of Abu Dhabi's home sales this year. Most people outside the UAE have never heard of it.
+
+Hudayriyat Island recorded around AED 19 billion in residential sales in the first half of 2026, the most of any area in Abu Dhabi.
+Modon's masterplan covers 51 million square metres, more than half the size of Abu Dhabi Island, with 16km of beaches.
+Surf Abu Dhabi, Marsana Beach and 321 Sports are already open.
+Launches keep selling out fast. The latest, Wadeem Gardens, comes with up to 75% finance.
+
+Abu Dhabi, honestly.
+Comment HUDAYRIYAT for early access to the next launch.
+
+Rayan Amin | RERA BRN 68958
+
+#HudayriyatIsland #Modon #AbuDhabiRealEstate #AbuDhabiVillas #UAEProperty
+
+---
+
+## Option B · Insider fact hook
+AED 19 billion in six months. That's what Abu Dhabi's top-selling island did in the first half of 2026.
+
+Hudayriyat Island was the emirate's number one market by sales for the second quarter in a row, according to ADREC data.
+It's Modon's 51 million square metre masterplan: beaches, surfing, cycling, and villa communities.
+Al Naseem, Nawayef, Wadeem and Hudayriyat Golf Estates have all launched here, and buyers moved fast on each.
+The newest release is Wadeem Gardens, 4 to 6 bedroom villas.
+
+Abu Dhabi, honestly.
+Comment HUDAYRIYAT and I'll send you early access details.
+
+Rayan Amin | RERA BRN 68958
+
+#HudayriyatIsland #Modon #AbuDhabiRealEstate #OffPlanAbuDhabi #UAEProperty
+
+---
+
+## Option C · "Most people don't know" hook
+Most people don't know which island is outselling everything else in Abu Dhabi. It isn't Saadiyat.
+
+It's Hudayriyat. Around AED 19 billion in home sales in the first half of 2026, about 27% of the emirate's residential sales.
+Saadiyat came second.
+Hudayriyat is being built around an active life: 16km of beaches, Surf Abu Dhabi, and a growing cycling network.
+Most homes are villas, and many handovers are years away. Built for patient buyers.
+
+Abu Dhabi, honestly.
+Comment HUDAYRIYAT for early access to the next launch.
+
+Rayan Amin | RERA BRN 68958
+
+#HudayriyatIsland #AbuDhabiRealEstate #SurfAbuDhabi #AbuDhabiLifestyle #UAEProperty
+
+---
+
+## Atlas recommendation
+**Option A with hook text 1 (AED 19 BILLION IN 6 MONTHS).** It matches the video's opening claim, which is verified by ADREC data, and works for a cold audience. Option C is the strongest "pattern interrupt" if you want to test a contrarian angle: Saadiyat is the island everyone knows.
+
+**Video note:** the claims about 16 international schools, 7 healthcare centres and 4 underground tunnels couldn't be verified. If Modon hasn't announced them publicly, cut them from the video or ask your Modon contact for the source. They're the kind of line an informed HNI viewer will question.
+
+**Compliance:** no prices are quoted in any caption. Wadeem Gardens is mentioned with "up to 75% finance". That's a financing term for a specific project, so check whether it needs an advertising permit. If unsure, Option C avoids project names entirely.
+
+---
+
+# v1 (written from the script, before the video notes)
 
 > Atlas · 2026-11-03 · Requested by Rayan (and the CEO Agent)
 > Trial Reel: shown to non-followers first, so each caption assumes the viewer has never heard of Rayan or the island.
