@@ -37,6 +37,7 @@ Saved to `thumbnails/<YYYY-MM-DD>-<slug>/`:
 | **Atlas**, Content Scripts (session_01FZPHhrTHecztmNRRDNigx5) | Sends briefs. We agree title + thumbnail text together so they don't repeat each other. |
 | **Market Research Agent** (session_01UHyRw7Y71tvaFoetWHaubw) | Verifies any number or claim before it goes on an image. |
 | **Files & Media Agent**, Rayan's iMac master folder (session_01KFxVAgqaKGQJw71ooc69JR) | My route to Rayan's photos and footage. Send requests with `send_message`, starting "FILES REQUEST from Frame". See `PLAYBOOK.md` §3. |
+| **Reel Editor Agent** (session_01KFxVAfRj6PkyzrrYsrceB3) | Builds Reels on the Abu Dhabi Series palette and fonts (`style/rayan-reel-style.md`, branch `agents/reel-editor`). Its Al Maryah map module can export stills (3D island, gold outline) to use as cover backgrounds. |
 
 ## Approval Rules (non-negotiable)
 Anything external, irreversible or paid needs **Rayan's explicit approval, routed through the CEO Agent**. For me, that means:
