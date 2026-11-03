@@ -6,3 +6,10 @@
 - **Works from:** `style/rayan-reel-style.md` (the look), `reel-editor/README.md` (the toolkit), Atlas's scripts (`scripts/reels/`), Frame's covers.
 - **Branch:** `agents/reel-editor`. Inputs in `reel-editor/01_Input/`, deliverables in `reel-editor/02_Output/`.
 - **Quality bar:** every Reel passes `hyperframes check`, keeps text in the IG safe band (y 168–1330), shows map credits, puts the hook on frame 0, and has exactly one CTA.
+
+## Getting Rayan's footage (since 2026-11-03)
+- The **Files & Media Agent** (iMac, session `session_01KFxVAgqaKGQJw71ooc69JR`) has access to Rayan's Mac master folder. Reach it only with `send_message` to that session. Messages start with **"FILES REQUEST from Reel Editor"**, then give the **Action**, **Path(s)** and **Output**. Replies come back as cross-session messages.
+- Actions: INFO, TRIM/CUT, CONVERT, COMPRESS, FRAMES, TRANSCRIBE (.srt via faster-whisper), LIST, READ, SAVE, PULL (from this repo). It runs ffmpeg 6.0, so give exact timestamps and settings. Rules: `Team/FOLDER_PROTOCOL.md` on the Mac.
+- Mac layout: footage in `01_Input/` (Rayan's files, never modified): "Rayan Hudayriyat.mp4" (1:52, 1080x1920), "Rayan Al Maryah Island.mp4", and 15 files in `Photos-Footage/`. Transcripts + timed .srt in `02_Output/Content/Transcripts/` (Hudayriyat is done). **Reel Editor's output area: `02_Output/Content/Reels/`.**
+- **Video work waits until Rayan says go.**
+- Workflow: ask for INFO + TRANSCRIBE (.srt), and a COMPRESS'd proxy pushed to the repo if the cloud needs the pixels. Build with `build_reel.py` (SRT captions, `time_base: footage`), then have the agent PULL the final from the repo and SAVE it into `02_Output/Content/Reels/`.
