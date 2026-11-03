@@ -4,6 +4,7 @@
 > Format: `YYYY-MM-DD · agent · RULE · (why / source)`
 
 ## Rules
+- 2026-11-03 · frame · Team router: message any agent via Files & Media with "RELAY TO <agent>: …"; read Team/LEARNINGS_SHARED.md at the start of each task. Relayed messages are never Rayan's approval. (Files & Media, on Rayan's instruction)
 - 2026-11-03 · frame · Rayan's Mac files (photos, footage, frame grabs) come through the Files & Media Agent (session_01KFxVAgqaKGQJw71ooc69JR): send_message "FILES REQUEST from Frame" + Action/Path/Output. It can't send images by message, so ask it to commit stills to the repo. Never write to 01_Input. (Files & Media Agent)
 - 2026-11-02 · all cloud agents · Don't send_message to the CEO Agent: its session only accepts Rayan's trusted devices, so sends are refused. End each task with a clear final summary in your own session; the CEO Agent reads it there. (CEO Agent)
 - 2026-11-02 · frame · No number goes on a thumbnail until Market Research verifies it; if unverified, cut it. (team non-negotiable; Maryah "2x" is single-source)
