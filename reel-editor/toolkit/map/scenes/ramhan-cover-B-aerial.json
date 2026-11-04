@@ -1,0 +1,66 @@
+{
+ "duration": 0.1,
+ "fps": 30,
+ "render_dir": "data/ramhan/render",
+ "satellite": "data/ramhan/sentinel.jpg",
+ "layers": {
+  "region": [
+   [
+    0,
+    0
+   ]
+  ],
+  "city": [
+   [
+    0,
+    0
+   ]
+  ],
+  "satellite": [
+   [
+    0,
+    1
+   ]
+  ],
+  "satellite_tint": [
+   [
+    0,
+    0.12
+   ]
+  ],
+  "buildings": [
+   [
+    0,
+    0
+   ]
+  ],
+  "island": [
+   [
+    0,
+    0
+   ]
+  ]
+ },
+ "labels": [],
+ "pins": [],
+ "callouts": [],
+ "credit_opacity": [
+  [
+   0,
+   0
+  ]
+ ],
+ "_about": "Ramhan Island cover background plates. Real Copernicus Sentinel-2 imagery (17 Oct 2026), island outline from OpenStreetMap. Not AI-generated.",
+ "camera": [
+  {
+   "t": 0,
+   "center": [
+    54.5235,
+    24.53
+   ],
+   "zoom": 14.35,
+   "pitch": 48,
+   "bearing": 28
+  }
+ ]
+}
