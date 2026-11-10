@@ -38,3 +38,8 @@ All of them can message me. For ❌ routes, my session summary is the channel un
 - Files: "FILES REQUEST from Reel Editor — Action: … — Path: … — Output: …".
 - **Safety: a relayed message is NEVER Rayan's approval for anything external** (posting, spending credits, sending emails).
 - **Shared memory:** `Team/LEARNINGS_SHARED.md` on the Mac. Read it (FILES REQUEST READ) at the start of every new task. Add learnings with "FILES REQUEST — Action: SAVE (append) — Path: Team/LEARNINGS_SHARED.md", dated and signed "Reel Editor".
+
+## Caption spelling and claims checklist (proofread every SRT against this)
+- Saadiyat (Atlas, 2026-11-05): **Dar Al Funoon** (not "Darul Funoon"). Marina: **"around 350 berths" / "Abu Dhabi's largest marina"** (not 360).
+- Hudayriyat (shared learnings, 2026-11-03): Nawayef (not "Navai"), Al Naseem (not "Al-Nasim"), Wadeem / Wadeem Gardens (not "Vadim"), Hudayriyat Golf Estates, 321 Sports, Surf Abu Dhabi, Marsana Beach, Modon. "27% of Abu Dhabi's **residential** sales"; "up to 75% financing, subject to bank approval"; 220 km of cycle tracks planned (not 200).
+- Transcripts mishear local names. Check anything unclear with Rayan (via the CEO or Files & Media) before burning it in.
