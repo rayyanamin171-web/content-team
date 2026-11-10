@@ -253,6 +253,39 @@ def main():
             GROUPS="\n".join(gh), GROUP_JSON=json.dumps(gj)))
         host("captions", 0, total, kind="captions", zi=14)
 
+    # ---- glass widgets (frosted cards): fact / stat / chip / list
+    wdg = cfg.get("widgets") or []
+    if wdg:
+        PIN = ('<svg viewBox="0 0 24 24"><path fill="' + B["gold"] + '" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>')
+        TICK = ('<svg viewBox="0 0 24 24"><path fill="none" stroke="' + B["navy"] + '" stroke-width="3.2" stroke-linecap="round" '
+                'stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></svg>')
+        E = html.escape
+        wh, wj = [], []
+        for i, w in enumerate(wdg):
+            wid = f"wg{i}"
+            k = w.get("kind", "fact")
+            if k == "chip":
+                inner = (f'<div class="glass chip">{PIN}<span class="t stg">{E(w["text"])}</span>'
+                         + (f'<span class="s stg">{E(w["sub"])}</span>' if w.get("sub") else "") + "</div>")
+            elif k == "list":
+                items = "".join(f'<div class="it stg"><span class="tick">{TICK}</span><span>{E(t)}</span></div>' for t in w["items"])
+                inner = f'<div class="glass list"><div class="lbl">{E(w.get("label", ""))}</div>{items}</div>'
+            else:  # fact / stat
+                inner = (f'<div class="glass {"stat" if k == "stat" else "fact"}"><div class="lbl stg">{E(w.get("label", ""))}</div>'
+                         f'<div class="val stg">{E(w["value"])}</div>'
+                         + (f'<div class="sub stg">{E(w["sub"])}</div>' if w.get("sub") else "")
+                         + (f'<div class="src stg">Source: {E(w["source"])}</div>' if w.get("source") else "") + "</div>")
+            pos = f'left:{w.get("left", 64)}px;top:{w.get("top", 420)}px;' + (f'width:{w["width"]}px;' if w.get("width") else "max-width:860px;")
+            s0, s1 = w["start"], w["start"] + w["dur"]
+            wh.append(f'    <div id="{wid}" class="wg clip" data-start="{s0:.3f}" data-duration="{w["dur"]:.3f}" '
+                      f'data-layout-allow-overlap style="{pos}">{inner}</div>')
+            wj.append({"id": wid, "start": s0, "end": round(s1, 3)})
+            if not any(n == "tick" and abs(t0 - (s0 + 0.05)) < 0.4 for n, t0, _ in audio):
+                audio.append(("tick", s0 + 0.05, 0.3))
+        open(os.path.join(build, "compositions", "widgets.html"), "w").write(fill(
+            "widgets.html", FONTFACE=FF, GOLD=B["gold"], PAPER=B["paper"], WIDGETS="\n".join(wh), WIDGET_JSON=json.dumps(wj)))
+        host("widgets", 0, total, zi=13)
+
     ec = next((s for s in segs if s["type"] == "endcard"), None)
     if ec:
         e = cfg.get("end_card", {})
